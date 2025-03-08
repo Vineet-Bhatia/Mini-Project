@@ -1,0 +1,49 @@
+.contact-container {
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 10px;
+  padding: 8px;
+  width: 600px ;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #151715;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5645b8;
+}
+
+.contact-list {
+  margin-top: 20px;
+}
+
+.contact-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.contact-list button {
+  margin-right: 10px;
+}

@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'AngularFlex' title`, () => {
+  it(`should have the 'Contact-Book' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('AngularFlex');
+    expect(app.title).toEqual('Contact-Book');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, AngularFlex');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, Contact-Book');
   });
 });

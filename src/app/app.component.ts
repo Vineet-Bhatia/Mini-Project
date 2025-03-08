@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { ContactComponent } from "./contact/contact.component";
+import { CommonModule } from '@angular/common';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @Component({
   selector: 'app-root',
-  imports: [ContactComponent],
+  standalone: true,
+  imports: [CommonModule, FlexLayoutModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Contact-Book';
+  title = 'Responsive Layout App';
 }
